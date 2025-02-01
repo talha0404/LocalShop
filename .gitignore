@@ -1,0 +1,61 @@
+### Xcode ile ilgili dosyalar ###
+.DS_Store
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+
+### Build dosyaları ###
+DerivedData/
+build/
+
+### Swift Package Manager ###
+/.swiftpm
+.build/
+
+### CocoaPods ###
+Pods/
+Podfile.lock
+
+### Carthage ###
+Carthage/
+
+### Fastlane ###
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+### Playgrounds ###
+playground.xcworkspace
+
+### Kişisel Dosyalar ###
+*.xcuserstate
+*.orig
+
+### Temp ve Cache Dosyaları ###
+*.swp
+*.lock
+*.tmp
+*.bak
+
+### Xcode Server dosyaları ###
+server.logs
+
+### Symbolication Logs ###
+*.crash
+
+### Test Sonuçları ###
+*.xctest
+*.xctestplan
+
+### App Store dosyaları ###
+*.ipa
+*.dSYM.zip
+*.xcarchive
